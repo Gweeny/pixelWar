@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: rgb(34, 2, 70);
+  height: 50px;
+}
+
+#game {
+  width: 1200px;
+  height: 600px;
+  box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  cursor: none;
+}
+
+#colorchoice {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  height: 200px;
+}
+#colorchoice div {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+#colorchoice div:hover {
+  border: 1px solid black;
+}
+
+#cursor {
+  position: absolute;
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: none;
+}/*# sourceMappingURL=style.css.map */
