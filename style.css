@@ -52,3 +52,8 @@ body {
   justify-content: center;
   position: relative; /* Ensure positioning context for children */
 }
+
+#countdown {
+  position: absolute;
+  top: 50px;
+}
