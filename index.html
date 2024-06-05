@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
-    <link rel="shortcut icon" href="#">
-</head>
-<body>
-    <h1 id="h1">Pixel War</h1>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <!-- <div>
+      <h1 id="h1">Pixel War</h1>
+      <h2>Pick a color to place on the canvas below</h2>
+    </div> -->
+    <div id="global">
+      <div id="cursor"></div>
+      <canvas id="game"></canvas>
 
-    <div id="cursor"></div>
-    <canvas id="game"></canvas>
-
-    <div id="colorchoice"></div>
-    
+      <div id="colorchoice"></div>
+    </div>
     <script src="script.js"></script>
-
-    <script type="module">
-
-        // Import the functions you need from the SDKs you need
-      
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
-      
-        // TODO: Add SDKs for Firebase products that you want to use
-      
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-      
-        // Your web app's Firebase configuration
-      
-        const firebaseConfig = {
-      
-          apiKey: "AIzaSyDpaHNnkjCNVRKcBLzHM5Kle4irbCzNnbs",
-      
-          authDomain: "pixelwarsiam.firebaseapp.com",
-      
-          projectId: "pixelwarsiam",
-      
-          storageBucket: "pixelwarsiam.appspot.com",
-      
-          messagingSenderId: "587859252906",
-      
-          appId: "1:587859252906:web:d96c6ac4fa9dfbcf1962d3"
-      
-        };
-      
-      
-        // Initialize Firebase
-      
-        const app = initializeApp(firebaseConfig);
-      
-      </script>
-</body>
+  </body>
 </html>
+
+<!-- <script type="module">
+      // Import the functions you need from the SDKs you need
+
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+
+      // TODO: Add SDKs for Firebase products that you want to use
+
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDpaHNnkjCNVRKcBLzHM5Kle4irbCzNnbs",
+
+        authDomain: "pixelwarsiam.firebaseapp.com",
+
+        projectId: "pixelwarsiam",
+
+        storageBucket: "pixelwarsiam.appspot.com",
+
+        messagingSenderId: "587859252906",
+
+        appId: "1:587859252906:web:d96c6ac4fa9dfbcf1962d3",
+      };
+
+      // Initialize Firebase
+
+      const app = initializeApp(firebaseConfig);
+    </script> -->
